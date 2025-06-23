@@ -20,6 +20,10 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/hidl/manifest.xml
 ODM_MANIFEST_SKUS += haydn_in
 ODM_MANIFEST_HAYDN_IN_FILES := $(DEVICE_PATH)/hidl/manifest_no_nfc.xml
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_haydn
+TARGET_RECOVERY_DEVICE_MODULES := libinit_haydn
+
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/haydn_QGKI.config
 
