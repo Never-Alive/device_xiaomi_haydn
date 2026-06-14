@@ -15,6 +15,12 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := M2012K11G
 PRODUCT_NAME := lineage_haydn
 
+# Axion Flags
+AXION_CAMERA_REAR_INFO := 108,8,5
+AXION_CAMERA_FRONT_INFO := 20
+AXION_MAINTAINER := Lucifer
+AXION_PROCESSOR := Snapdragon_CPU_888
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="haydn_global-user 14 UKQ1.231207.002 V816.0.19.0.UKKMIXM release-keys" \
     BuildFingerprint=Xiaomi/haydn_global/haydn:14/UKQ1.231207.002/V816.0.19.0.UKKMIXM:user/release-keys \
