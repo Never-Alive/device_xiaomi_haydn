@@ -78,3 +78,6 @@ $(call inherit-product, vendor/xiaomi/haydn/haydn-vendor.mk)
 
 # Call the proprietary setup for miui-camera
 $(call inherit-product-if-exists, vendor/xiaomi/miuicamera-haydn/device.mk)
+
+# Call Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
