@@ -19,6 +19,7 @@ PRODUCT_NAME := infinity_haydn
 INFINITY_BUILD_TYPE := OFFICIAL
 INFINITY_MAINTAINER := Lucifer
 WITH_GAPPS := true
+ROM_INF := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="haydn_global-user 14 UKQ1.231207.002 V816.0.19.0.UKKMIXM release-keys" \
