@@ -4,3 +4,6 @@ ro.hardware.audio.primary=haydn
 # Fingerprint
 persist.vendor.fingerprint.type=side
 persist.vendor.fingerprint.sensor_location=1080|970|200|local:4630946736638489730
+
+# Media renderer
+persist.sys.vk_use_ogl_for_media=true
