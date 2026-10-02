@@ -18,7 +18,8 @@ PRODUCT_COPY_FILES += \
 
 # Init
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/init.haydn.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.haydn.rc
+    $(LOCAL_PATH)/rootdir/etc/init.haydn.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.haydn.rc \
+    $(LOCAL_PATH)/rootdir/etc/init.axion.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.axion.rc
 
 # NFC
 PRODUCT_COPY_FILES += \
