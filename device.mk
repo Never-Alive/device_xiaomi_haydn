@@ -24,6 +24,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/android.hardware.exclude-nfc.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_haydn_in/android.hardware.exclude-nfc.xml
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/ax_kernel_manager.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/ax_kernel_manager.xml
+
 # Logging
 SPAMMY_LOG_TAGS := \
     AiAiEcho \
